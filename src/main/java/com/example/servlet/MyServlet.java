@@ -55,7 +55,7 @@ public class MyServlet extends HttpServlet {
             executor.execute(() -> {
                 try {
                     // Вызов Script
-                    Process process = new ProcessBuilder("your script", "path").start();
+                    Process process = new ProcessBuilder("cscript convert.vbs", "path").start();
                     process.waitFor();
                 } catch (Exception e) {
                     try {
