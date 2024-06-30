@@ -11,6 +11,8 @@ target/
 *.iws
 *.iml
 *.ipr
+.smarttomcat
+localTomcat
 
 ### Eclipse ###
 .apt_generated
