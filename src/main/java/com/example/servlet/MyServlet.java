@@ -24,12 +24,12 @@ public class MyServlet extends HttpServlet {
         response.setContentType("application/json");
         try(BufferedReader reader = new BufferedReader(new InputStreamReader(request.getInputStream(), StandardCharsets.UTF_8))) {
             String requestBody = reader.lines().collect(Collectors.joining());
-            JSObject requestJson = gson.fromJson(requestBody, JSObject.class);
+            JsonObject requestJson = gson.fromJson(requestBody, JsonObject.class);
             // Извлекаем данные из JSON
-            String name = requestJson.getMember("name").toString();
-            String extension = requestJson.getMember("extension").toString();
-            String path = requestJson.getMember("path").toString();
-            String fileData = requestJson.getMember("fileData").toString();
+            String name = requestJson.get("name").getAsString();
+            String extension = requestJson.get("extension").getAsString();
+            String path = requestJson.get("path").getAsString();
+            String fileData = requestJson.get("fileData").getAsString();
             // Декодирование Base64
             byte[] fileBytes;
             try {
@@ -39,7 +39,8 @@ public class MyServlet extends HttpServlet {
                 return;
             }
             // Создание файла
-            String filePath = String.format("%s/%s.%s", path, name, extension);
+            String filePath = String.format("%s\\%s.%s", path, name, extension);
+            System.out.println(filePath);
             File file = new File(filePath);
             FileOutputStream fos;
             try {
