@@ -1,0 +1,47 @@
+30-Jun-2024 18:01:53.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.25
+30-Jun-2024 18:01:53.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Jun 14 2024 19:31:59 UTC
+30-Jun-2024 18:01:53.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.25.0
+30-Jun-2024 18:01:53.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Jun-2024 18:01:53.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+30-Jun-2024 18:01:53.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+30-Jun-2024 18:01:53.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\clone\.sdkman\candidates\java\current
+30-Jun-2024 18:01:53.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            17.0.11+7-LTS-207
+30-Jun-2024 18:01:53.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+30-Jun-2024 18:01:53.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\clone\IdeaProjects\webWindows-servlet\localTomcat\apache-tomcat-10.1.25
+30-Jun-2024 18:01:53.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\clone\IdeaProjects\webWindows-servlet\localTomcat\apache-tomcat-10.1.25
+30-Jun-2024 18:01:53.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:/Users/clone/IdeaProjects/webWindows-servlet/localTomcat/apache-tomcat-10.1.25/conf/logging.properties
+30-Jun-2024 18:01:53.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jun-2024 18:01:53.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Jun-2024 18:01:53.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Jun-2024 18:01:53.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Jun-2024 18:01:53.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Jun-2024 18:01:53.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Jun-2024 18:01:53.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Jun-2024 18:01:53.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Jun-2024 18:01:53.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Jun-2024 18:01:53.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:/Users/clone/IdeaProjects/webWindows-servlet/localTomcat/apache-tomcat-10.1.25
+30-Jun-2024 18:01:53.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:/Users/clone/IdeaProjects/webWindows-servlet/localTomcat/apache-tomcat-10.1.25
+30-Jun-2024 18:01:53.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:/Users/clone/IdeaProjects/webWindows-servlet/localTomcat/apache-tomcat-10.1.25/temp
+30-Jun-2024 18:01:53.273 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+30-Jun-2024 18:01:53.278 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+30-Jun-2024 18:01:53.590 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+30-Jun-2024 18:01:53.646 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [727] milliseconds
+30-Jun-2024 18:01:53.734 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jun-2024 18:01:53.734 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.25]
+30-Jun-2024 18:01:53.750 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\clone\IdeaProjects\webWindows-servlet\localTomcat\apache-tomcat-10.1.25\webapps\docs]
+30-Jun-2024 18:01:54.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\clone\IdeaProjects\webWindows-servlet\localTomcat\apache-tomcat-10.1.25\webapps\docs] has finished in [654] ms
+30-Jun-2024 18:01:54.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\clone\IdeaProjects\webWindows-servlet\localTomcat\apache-tomcat-10.1.25\webapps\examples]
+30-Jun-2024 18:01:54.926 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\clone\IdeaProjects\webWindows-servlet\localTomcat\apache-tomcat-10.1.25\webapps\examples] has finished in [514] ms
+30-Jun-2024 18:01:54.927 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\clone\IdeaProjects\webWindows-servlet\localTomcat\apache-tomcat-10.1.25\webapps\host-manager]
+30-Jun-2024 18:01:54.996 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\clone\IdeaProjects\webWindows-servlet\localTomcat\apache-tomcat-10.1.25\webapps\host-manager] has finished in [68] ms
+30-Jun-2024 18:01:54.998 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\clone\IdeaProjects\webWindows-servlet\localTomcat\apache-tomcat-10.1.25\webapps\manager]
+30-Jun-2024 18:01:55.036 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\clone\IdeaProjects\webWindows-servlet\localTomcat\apache-tomcat-10.1.25\webapps\manager] has finished in [40] ms
+30-Jun-2024 18:01:55.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\clone\IdeaProjects\webWindows-servlet\localTomcat\apache-tomcat-10.1.25\webapps\ROOT]
+30-Jun-2024 18:01:55.059 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\clone\IdeaProjects\webWindows-servlet\localTomcat\apache-tomcat-10.1.25\webapps\ROOT] has finished in [21] ms
+30-Jun-2024 18:01:55.075 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Jun-2024 18:01:55.138 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1491] milliseconds
+30-Jun-2024 18:05:46.323 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Jun-2024 18:05:46.323 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Jun-2024 18:05:46.482 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Jun-2024 18:05:46.545 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Jun-2024 18:05:46.560 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
